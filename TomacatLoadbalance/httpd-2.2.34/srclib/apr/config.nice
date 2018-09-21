@@ -1,0 +1,18 @@
+#! /bin/sh
+#
+# Created by configure
+
+"/home/sekharvaana/Desktop/TomacatLoadbalance/httpd-2.2.34/srclib/apr/configure" \
+"--disable-option-checking" \
+"--enable-rewrite=shared" \
+"--enable-proxy=shared" \
+"--cache-file=/dev/null" \
+"--srcdir=/home/sekharvaana/Desktop/TomacatLoadbalance/httpd-2.2.34/srclib/apr" \
+"--prefix=/usr/local/apache" \
+"--exec-prefix=/usr/local/apache" \
+"--libdir=/usr/local/apache/lib" \
+"--includedir=/usr/local/apache/include" \
+"--bindir=/usr/local/apache/bin" \
+"--datadir=/usr/local/apache" \
+"--with-installbuilddir=/usr/local/apache/build" \
+"$@"

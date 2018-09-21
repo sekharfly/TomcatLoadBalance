@@ -1,0 +1,761 @@
+13-Mar-2018 11:46:00.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+13-Mar-2018 11:46:00.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+13-Mar-2018 11:46:00.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+13-Mar-2018 11:46:00.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Mar-2018 11:46:00.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+13-Mar-2018 11:46:00.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Mar-2018 11:46:00.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_66/jre
+13-Mar-2018 11:46:00.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+13-Mar-2018 11:46:00.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Mar-2018 11:46:00.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 11:46:00.898 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 11:46:00.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/conf/logging.properties
+13-Mar-2018 11:46:00.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Mar-2018 11:46:00.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Mar-2018 11:46:00.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Mar-2018 11:46:00.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Mar-2018 11:46:00.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 11:46:00.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 11:46:00.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/temp
+13-Mar-2018 11:46:00.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Mar-2018 11:46:01.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:46:01.118 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 11:46:01.128 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:46:01.130 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 11:46:01.132 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 932 ms
+13-Mar-2018 11:46:01.170 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Mar-2018 11:46:01.170 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+13-Mar-2018 11:46:01.187 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Mar-2018 11:46:01.202 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4001]
+13-Mar-2018 11:46:01.221 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 11:46:01.225 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Mar-2018 11:46:02.226 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Mar-2018 11:46:02.230 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Mar-2018 11:46:03.231 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Mar-2018 11:46:03.279 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war]
+13-Mar-2018 11:46:04.343 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 11:46:04.416 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/session] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 11:46:04.417 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/session]
+13-Mar-2018 11:46:04.417 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/session]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 11:46:04.437 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war] has finished in [1,157] ms
+13-Mar-2018 11:46:04.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT]
+13-Mar-2018 11:46:04.868 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 11:46:04.870 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 11:46:04.871 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+13-Mar-2018 11:46:04.871 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 11:46:04.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT] has finished in [437] ms
+13-Mar-2018 11:46:04.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs]
+13-Mar-2018 11:46:04.896 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/docs] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 11:46:04.897 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/docs]
+13-Mar-2018 11:46:04.897 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/docs]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 11:46:04.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs] has finished in [23] ms
+13-Mar-2018 11:46:04.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager]
+13-Mar-2018 11:46:04.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager] has finished in [51] ms
+13-Mar-2018 11:46:04.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager]
+13-Mar-2018 11:46:04.974 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager] has finished in [21] ms
+13-Mar-2018 11:46:04.974 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Mar-2018 11:46:04.979 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:46:04.994 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:46:05.005 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3873 ms
+13-Mar-2018 11:47:44.856 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Mar-2018 11:47:44.857 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:47:44.911 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:47:44.962 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Mar-2018 11:47:44.963 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+13-Mar-2018 11:47:44.965 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/session] expiring sessions upon shutdown
+13-Mar-2018 11:47:44.977 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+13-Mar-2018 11:47:44.993 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/docs] expiring sessions upon shutdown
+13-Mar-2018 11:47:45.099 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:47:45.104 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:47:45.107 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:47:45.107 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:49:53.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+13-Mar-2018 11:49:53.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+13-Mar-2018 11:49:53.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+13-Mar-2018 11:49:53.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Mar-2018 11:49:53.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+13-Mar-2018 11:49:53.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Mar-2018 11:49:53.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_66/jre
+13-Mar-2018 11:49:53.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+13-Mar-2018 11:49:53.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Mar-2018 11:49:53.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 11:49:53.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 11:49:53.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/conf/logging.properties
+13-Mar-2018 11:49:53.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Mar-2018 11:49:53.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Mar-2018 11:49:53.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Mar-2018 11:49:53.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Mar-2018 11:49:53.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 11:49:53.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 11:49:53.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/temp
+13-Mar-2018 11:49:53.444 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Mar-2018 11:49:53.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:49:53.654 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 11:49:53.662 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:49:53.664 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 11:49:53.664 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 879 ms
+13-Mar-2018 11:49:53.701 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Mar-2018 11:49:53.701 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+13-Mar-2018 11:49:53.716 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Mar-2018 11:49:53.728 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4000]
+13-Mar-2018 11:49:53.743 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 11:49:53.746 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Mar-2018 11:49:54.747 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Mar-2018 11:49:54.751 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Mar-2018 11:49:55.751 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Mar-2018 11:49:55.812 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war]
+13-Mar-2018 11:49:57.089 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 11:49:57.198 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/session] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 11:49:57.198 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/session]
+13-Mar-2018 11:49:57.199 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/session]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 11:49:57.239 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war] has finished in [1,426] ms
+13-Mar-2018 11:49:57.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT]
+13-Mar-2018 11:49:58.047 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 11:49:58.061 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 11:49:58.062 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+13-Mar-2018 11:49:58.062 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 11:49:58.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT] has finished in [831] ms
+13-Mar-2018 11:49:58.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs]
+13-Mar-2018 11:49:58.093 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/docs] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 11:49:58.094 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/docs]
+13-Mar-2018 11:49:58.094 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/docs]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 11:49:58.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs] has finished in [24] ms
+13-Mar-2018 11:49:58.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager]
+13-Mar-2018 11:49:58.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager] has finished in [115] ms
+13-Mar-2018 11:49:58.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager]
+13-Mar-2018 11:49:58.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager] has finished in [52] ms
+13-Mar-2018 11:49:58.264 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Mar-2018 11:49:58.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 11:49:58.311 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 11:49:58.325 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4660 ms
+13-Mar-2018 11:49:58.783 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Mar-2018 11:49:59.624 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4001,{127, 0, 1, 1},4001, alive=1015, securePort=-1, UDP Port=-1, id={4 28 126 5 -60 82 79 -69 -84 -91 -46 -34 92 44 -105 -60 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 11:50:03.647 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4002,{127, 0, 1, 1},4002, alive=1028, securePort=-1, UDP Port=-1, id={-33 74 -71 -59 69 24 74 22 -118 121 38 44 -77 -5 -64 92 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 12:02:38.721 INFO [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4002,{127, 0, 1, 1},4002, alive=752938, securePort=-1, UDP Port=-1, id={-33 74 -71 -59 69 24 74 22 -118 121 38 44 -77 -5 -64 92 }, payload={}, command={}, domain={}, ]] message. Will verify.
+13-Mar-2018 12:02:38.721 INFO [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4001,{127, 0, 1, 1},4001, alive=756914, securePort=-1, UDP Port=-1, id={4 28 126 5 -60 82 79 -69 -84 -91 -46 -34 92 44 -105 -60 }, payload={}, command={}, domain={}, ]] message. Will verify.
+13-Mar-2018 12:02:38.722 INFO [pool-1-thread-4] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member still alive[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4002,{127, 0, 1, 1},4002, alive=752938, securePort=-1, UDP Port=-1, id={-33 74 -71 -59 69 24 74 22 -118 121 38 44 -77 -5 -64 92 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 12:02:38.723 INFO [pool-1-thread-3] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member still alive[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4001,{127, 0, 1, 1},4001, alive=756914, securePort=-1, UDP Port=-1, id={4 28 126 5 -60 82 79 -69 -84 -91 -46 -34 92 44 -105 -60 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 12:02:40.721 WARNING [Tribes-MembershipSender[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread.run Unable to send mcast message.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread.run(McastServiceImpl.java:592)
+
+13-Mar-2018 12:16:22.888 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Mar-2018 12:16:22.889 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 12:16:22.891 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 12:16:22.892 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Mar-2018 12:16:22.893 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+13-Mar-2018 12:16:22.895 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/session] expiring sessions upon shutdown
+13-Mar-2018 12:16:22.909 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+13-Mar-2018 12:16:22.936 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/docs] expiring sessions upon shutdown
+13-Mar-2018 12:16:23.042 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 12:16:23.047 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 12:16:23.051 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 12:16:23.052 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 13:06:20.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+13-Mar-2018 13:06:20.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+13-Mar-2018 13:06:20.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+13-Mar-2018 13:06:20.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Mar-2018 13:06:20.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+13-Mar-2018 13:06:20.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Mar-2018 13:06:20.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_66/jre
+13-Mar-2018 13:06:20.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+13-Mar-2018 13:06:20.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Mar-2018 13:06:20.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 13:06:20.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 13:06:20.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/conf/logging.properties
+13-Mar-2018 13:06:20.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Mar-2018 13:06:20.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Mar-2018 13:06:20.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Mar-2018 13:06:20.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Mar-2018 13:06:20.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 13:06:20.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 13:06:20.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/temp
+13-Mar-2018 13:06:20.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Mar-2018 13:06:20.588 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 13:06:20.611 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 13:06:20.621 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 13:06:20.622 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 13:06:20.624 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 886 ms
+13-Mar-2018 13:06:20.661 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Mar-2018 13:06:20.661 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+13-Mar-2018 13:06:20.676 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Mar-2018 13:06:20.689 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4000]
+13-Mar-2018 13:06:20.704 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 13:06:20.708 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Mar-2018 13:06:21.709 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Mar-2018 13:06:21.711 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Mar-2018 13:06:22.711 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Mar-2018 13:06:22.744 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war]
+13-Mar-2018 13:06:24.015 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 13:06:24.111 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/session] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 13:06:24.112 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/session]
+13-Mar-2018 13:06:24.112 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/session]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 13:06:24.148 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war] has finished in [1,403] ms
+13-Mar-2018 13:06:24.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT]
+13-Mar-2018 13:06:24.981 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 13:06:24.983 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 13:06:24.983 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+13-Mar-2018 13:06:24.984 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 13:06:24.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT] has finished in [838] ms
+13-Mar-2018 13:06:24.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs]
+13-Mar-2018 13:06:25.028 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/docs] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 13:06:25.029 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/docs]
+13-Mar-2018 13:06:25.038 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/docs]: skipping state transfer. No members active in cluster group.
+13-Mar-2018 13:06:25.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs] has finished in [51] ms
+13-Mar-2018 13:06:25.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager]
+13-Mar-2018 13:06:25.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager] has finished in [143] ms
+13-Mar-2018 13:06:25.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager]
+13-Mar-2018 13:06:25.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager] has finished in [68] ms
+13-Mar-2018 13:06:25.255 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Mar-2018 13:06:25.271 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 13:06:25.363 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 13:06:25.381 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4757 ms
+13-Mar-2018 13:06:26.232 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Mar-2018 13:06:26.874 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4001,{127, 0, 1, 1},4001, alive=1013, securePort=-1, UDP Port=-1, id={-44 43 26 63 -44 60 69 -102 -72 -78 123 97 122 13 74 -58 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 13:06:29.912 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4002,{127, 0, 1, 1},4002, alive=1043, securePort=-1, UDP Port=-1, id={125 -95 -35 35 -43 55 76 5 -109 -14 87 -78 88 30 -89 22 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 14:09:10.496 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Mar-2018 14:09:10.550 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 14:09:10.602 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 14:09:10.653 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Mar-2018 14:09:10.654 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+13-Mar-2018 14:09:10.656 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/session] expiring sessions upon shutdown
+13-Mar-2018 14:09:10.762 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+13-Mar-2018 14:09:10.779 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/docs] expiring sessions upon shutdown
+13-Mar-2018 14:09:10.929 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 14:09:10.932 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 14:09:10.934 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 14:09:10.934 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 16:18:43.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+13-Mar-2018 16:18:43.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+13-Mar-2018 16:18:43.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+13-Mar-2018 16:18:43.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Mar-2018 16:18:43.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+13-Mar-2018 16:18:43.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Mar-2018 16:18:43.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_66/jre
+13-Mar-2018 16:18:43.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_66-b17
+13-Mar-2018 16:18:43.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Mar-2018 16:18:43.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 16:18:43.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 16:18:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/conf/logging.properties
+13-Mar-2018 16:18:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Mar-2018 16:18:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Mar-2018 16:18:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Mar-2018 16:18:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Mar-2018 16:18:43.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+13-Mar-2018 16:18:43.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+13-Mar-2018 16:18:43.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/temp
+13-Mar-2018 16:18:43.171 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Mar-2018 16:18:43.392 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 16:18:43.417 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 16:18:43.438 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 16:18:43.440 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Mar-2018 16:18:43.440 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 972 ms
+13-Mar-2018 16:18:43.493 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Mar-2018 16:18:43.493 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+13-Mar-2018 16:18:43.505 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+13-Mar-2018 16:18:43.520 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4000]
+13-Mar-2018 16:18:43.544 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 16:18:43.547 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+13-Mar-2018 16:18:43.610 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=7761393, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 16:18:44.548 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+13-Mar-2018 16:18:44.551 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+13-Mar-2018 16:18:44.566 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+13-Mar-2018 16:18:45.551 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+13-Mar-2018 16:18:45.729 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war]
+13-Mar-2018 16:18:47.532 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 16:18:47.630 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/session] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 16:18:47.630 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/session]
+13-Mar-2018 16:18:47.647 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/session], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=7765395, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Mar-2018 16:18:47.749 WARNING [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/session]: No context manager send at [3/13/18 4:18 PM] received in [118] ms.
+13-Mar-2018 16:18:47.770 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war] has finished in [2,041] ms
+13-Mar-2018 16:18:47.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT]
+13-Mar-2018 16:18:48.615 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 16:18:48.617 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 16:18:48.617 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+13-Mar-2018 16:18:48.618 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=7766395, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Mar-2018 16:18:48.719 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#]; session state send at [3/13/18 4:18 PM] received in [102] ms.
+13-Mar-2018 16:18:48.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT] has finished in [952] ms
+13-Mar-2018 16:18:48.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs]
+13-Mar-2018 16:18:48.750 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/docs] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 16:18:48.750 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/docs]
+13-Mar-2018 16:18:48.751 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/docs], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=7766395, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Mar-2018 16:18:48.852 WARNING [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/docs]: No context manager send at [3/13/18 4:18 PM] received in [101] ms.
+13-Mar-2018 16:18:48.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs] has finished in [131] ms
+13-Mar-2018 16:18:48.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager]
+13-Mar-2018 16:18:48.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager] has finished in [113] ms
+13-Mar-2018 16:18:48.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager]
+13-Mar-2018 16:18:48.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager] has finished in [26] ms
+13-Mar-2018 16:18:48.994 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+13-Mar-2018 16:18:49.001 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 16:18:49.029 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 16:18:49.033 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5592 ms
+13-Mar-2018 16:19:16.760 INFO [http-nio-8181-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/SpringSecurityRoleBasedLoginExample.war]
+13-Mar-2018 16:19:18.329 INFO [http-nio-8181-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Mar-2018 16:19:18.747 INFO [http-nio-8181-exec-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+13-Mar-2018 16:19:18.754 INFO [http-nio-8181-exec-2] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Mar 13 16:19:18 IST 2018]; root of context hierarchy
+13-Mar-2018 16:19:18.856 INFO [http-nio-8181-exec-2] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.websystique.springsecurity.configuration.HelloWorldConfiguration]
+13-Mar-2018 16:19:20.168 INFO [http-nio-8181-exec-2] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a17c071, org.springframework.security.web.context.SecurityContextPersistenceFilter@63d6e5a8, org.springframework.security.web.header.HeaderWriterFilter@17e77578, org.springframework.security.web.csrf.CsrfFilter@148ca518, org.springframework.security.web.authentication.logout.LogoutFilter@4de280d6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@74cd873, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ca651f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21762b4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38a5acf4, org.springframework.security.web.session.SessionManagementFilter@e467cee, org.springframework.security.web.access.ExceptionTranslationFilter@63a0c8e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7577f4a6]
+13-Mar-2018 16:19:20.299 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13-Mar-2018 16:19:20.401 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Mar 13 16:19:18 IST 2018]; root of context hierarchy
+13-Mar-2018 16:19:20.494 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/ || /home],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.homePage(org.springframework.ui.ModelMap)
+13-Mar-2018 16:19:20.495 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/db],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.dbaPage(org.springframework.ui.ModelMap)
+13-Mar-2018 16:19:20.495 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/admin],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.adminPage(org.springframework.ui.ModelMap)
+13-Mar-2018 16:19:20.495 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/Access_Denied],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.accessDeniedPage(org.springframework.ui.ModelMap)
+13-Mar-2018 16:19:20.495 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.logoutPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13-Mar-2018 16:19:20.496 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.loginPage()
+13-Mar-2018 16:19:20.545 INFO [http-nio-8181-exec-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1797 ms
+13-Mar-2018 16:19:20.546 INFO [http-nio-8181-exec-2] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/SpringSecurityRoleBasedLoginExample] to cluster element [Engine] with name [Catalina]
+13-Mar-2018 16:19:20.547 INFO [http-nio-8181-exec-2] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/SpringSecurityRoleBasedLoginExample]
+13-Mar-2018 16:19:20.548 INFO [http-nio-8181-exec-2] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/SpringSecurityRoleBasedLoginExample], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=7797909, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+13-Mar-2018 16:19:20.649 WARNING [http-nio-8181-exec-2] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/SpringSecurityRoleBasedLoginExample]: No context manager send at [3/13/18 4:19 PM] received in [101] ms.
+13-Mar-2018 16:19:20.656 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+13-Mar-2018 16:19:20.660 INFO [http-nio-8181-exec-2] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Mar 13 16:19:20 IST 2018]; parent: Root WebApplicationContext
+13-Mar-2018 16:19:20.698 INFO [http-nio-8181-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 42 ms
+13-Mar-2018 16:19:20.702 INFO [http-nio-8181-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/SpringSecurityRoleBasedLoginExample.war] has finished in [3,941] ms
+13-Mar-2018 17:57:55.368 WARNING [Tribes-MembershipSender[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread.run Unable to send mcast message.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread.run(McastServiceImpl.java:592)
+
+13-Mar-2018 17:57:56.872 INFO [Membership-MemberExpired.] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Received memberDisappeared[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=13711664, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]] message. Will verify.
+13-Mar-2018 17:57:56.873 INFO [pool-1-thread-2] org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.memberDisappeared Verification complete. Member still alive[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4003,{127, 0, 1, 1},4003, alive=13711664, securePort=-1, UDP Port=-1, id={-87 -83 50 125 -3 -53 65 -122 -103 -3 -8 34 -30 -52 119 -113 }, payload={}, command={}, domain={}, ]]
+13-Mar-2018 17:57:59.899 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 17:57:59.899 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 17:57:59.900 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 17:57:59.900 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 17:57:59.900 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 17:57:59.904 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [1] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:10.278 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:10.278 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:10.278 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:10.278 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:10.279 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:10.279 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [2] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:15.279 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:15.279 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:15.280 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:15.280 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:15.280 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:15.280 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [3] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:20.280 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:20.281 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:20.281 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:20.281 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:20.281 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:20.281 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [4] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:25.281 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:25.282 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:25.282 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:25.282 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:25.282 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:25.283 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [5] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:30.283 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:30.283 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:30.284 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:30.284 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:30.285 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:30.285 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [6] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:35.285 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:35.286 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:35.287 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:35.288 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:35.288 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:35.289 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [7] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:40.290 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:40.290 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:40.290 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:40.290 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:40.291 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:40.291 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [8] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:45.291 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:45.291 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:45.292 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:45.292 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:45.292 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:45.292 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [9] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:50.292 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:50.292 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:50.293 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:50.293 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:50.293 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:50.293 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [10] failed, trying again in [5000] seconds
+13-Mar-2018 18:00:55.293 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:00:55.294 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:55.294 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:00:55.294 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:00:55.294 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:00:55.294 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [11] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:00.294 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:00.295 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:00.295 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:00.295 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:00.295 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:00.295 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [12] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:05.296 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:05.296 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:05.296 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:05.296 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:05.296 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:05.296 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [13] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:10.297 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:10.297 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:10.298 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:10.298 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:10.298 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:10.299 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [14] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:15.299 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:15.299 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:15.300 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:15.300 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:15.300 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:15.300 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [15] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:20.300 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:20.300 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:20.301 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:20.301 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:20.301 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:20.301 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [16] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:25.301 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:25.302 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:25.303 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:25.303 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:25.303 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:25.304 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [17] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:30.304 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:30.304 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:30.305 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:30.305 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+13-Mar-2018 18:01:30.305 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+13-Mar-2018 18:01:30.305 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [18] failed, trying again in [5000] seconds
+13-Mar-2018 18:01:35.305 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+13-Mar-2018 18:01:35.306 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+13-Mar-2018 18:01:35.306 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[12]
+13-Mar-2018 18:01:36.306 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[12]
+13-Mar-2018 18:01:36.307 INFO [58] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Membership recovery was successful.
+13-Mar-2018 20:02:27.100 INFO [Thread-8] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 20:02:27.103 INFO [Thread-8] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 20:02:27.104 INFO [Thread-8] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Mar-2018 20:02:27.105 INFO [Thread-8] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+13-Mar-2018 20:02:27.108 INFO [Thread-8] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/session] expiring sessions upon shutdown
+13-Mar-2018 20:02:27.457 INFO [Thread-8] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+13-Mar-2018 20:02:27.472 INFO [Thread-8] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Mar 13 16:19:20 IST 2018]; parent: Root WebApplicationContext
+13-Mar-2018 20:02:27.474 INFO [Thread-8] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/SpringSecurityRoleBasedLoginExample] expiring sessions upon shutdown
+13-Mar-2018 20:02:27.474 INFO [Thread-8] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Mar 13 16:19:18 IST 2018]; root of context hierarchy
+13-Mar-2018 20:02:27.508 INFO [Thread-8] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/docs] expiring sessions upon shutdown
+13-Mar-2018 20:02:27.622 INFO [Thread-8] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 20:02:27.625 INFO [Thread-8] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8109"]
+13-Mar-2018 20:02:27.629 INFO [Thread-8] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8181"]
+13-Mar-2018 20:02:27.630 INFO [Thread-8] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8109"]

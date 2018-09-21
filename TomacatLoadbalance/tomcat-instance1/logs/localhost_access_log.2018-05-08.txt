@@ -1,0 +1,15 @@
+127.0.0.1 - - [08/May/2018:17:47:10 +0530] "GET / HTTP/1.1" 200 794
+127.0.0.1 - - [08/May/2018:17:47:10 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [08/May/2018:17:47:21 +0530] "GET /manager HTTP/1.1" 302 -
+127.0.0.1 - - [08/May/2018:17:47:22 +0530] "GET /manager/ HTTP/1.1" 302 -
+127.0.0.1 - - [08/May/2018:17:47:22 +0530] "GET /manager/html HTTP/1.1" 401 2473
+127.0.0.1 - tomcat [08/May/2018:17:47:32 +0530] "GET /manager/html HTTP/1.1" 200 22103
+127.0.0.1 - - [08/May/2018:17:47:32 +0530] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20486
+127.0.0.1 - - [08/May/2018:17:47:32 +0530] "GET /manager/images/tomcat.gif HTTP/1.1" 200 2066
+127.0.0.1 - tomcat [08/May/2018:17:48:02 +0530] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=988867094004F2420D71E0821406272A HTTP/1.1" 200 23884
+127.0.0.1 - - [08/May/2018:17:48:10 +0530] "GET /vanilla/ HTTP/1.1" 200 1459
+127.0.0.1 - - [08/May/2018:17:48:10 +0530] "GET /vanilla/styles.css HTTP/1.1" 200 2396
+127.0.0.1 - - [08/May/2018:17:48:16 +0530] "GET /vanilla/profile.jsp HTTP/1.1" 401 1033
+127.0.0.1 - - [08/May/2018:17:48:23 +0530] "GET /vanilla/profile.jsp HTTP/1.1" 401 1033
+127.0.0.1 - - [08/May/2018:17:48:34 +0530] "GET /vanilla/profile.jsp HTTP/1.1" 401 1033
+127.0.0.1 - - [08/May/2018:17:48:57 +0530] "GET /vanilla/profile.jsp HTTP/1.1" 401 1033

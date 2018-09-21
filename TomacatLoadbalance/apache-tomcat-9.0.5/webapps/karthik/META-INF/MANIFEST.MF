@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.3.9
+Built-By: sekharvaana
+Build-Jdk: 9.0.4
+Implementation-Title: Example
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/demo/
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.example.ExampleApplication
+Spring-Boot-Version: 1.5.9.RELEASE
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+

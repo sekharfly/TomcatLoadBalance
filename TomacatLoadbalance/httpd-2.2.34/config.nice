@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--prefix=/usr/local/apache" \
+"--enable-rewrite=shared" \
+"--enable-proxy=shared" \
+"$@"

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+	<th:block th:fragment="header">
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" th:href="@{/}"> <img
+						th:src="@{/img/logo.png}" alt="memorynotfound logo" />
+					</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a th:href="@{/home}">Home</a></li>
+						<li><a th:href="@{/profile}">Profile</a></li>
+						<li><a th:href="@{/notification}">Notifications</a></li>
+						<li><a th:href="@{/company}">about company</a></li>
+					</ul>
+					<!-- <li>  <a th:href="@{/settings}">settings</a></li> -->
+					<ul class="nav navbar-nav navbar-right">
+						<select id="settings" name="settings">
+							<option value="">settings</option>
+							<option value="changepassword.html">changepassword</option>
+							<option value="">editprofile</option>
+							<option value="">about</option>
+						</select>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</th:block>
+</body>
+</html>

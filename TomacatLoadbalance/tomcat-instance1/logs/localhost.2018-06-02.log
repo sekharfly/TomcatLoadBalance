@@ -1,0 +1,8 @@
+02-Jun-2018 11:19:11.711 INFO [main] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [com.websystique.springsecurity.configuration.SecurityWebApplicationInitializer@315cf170, com.websystique.springsecurity.configuration.SpringMvcInitializer@7878bbdb]
+02-Jun-2018 11:19:12.018 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+02-Jun-2018 11:19:16.018 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+02-Jun-2018 11:19:32.202 INFO [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+02-Jun-2018 11:19:42.067 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+02-Jun-2018 11:25:58.224 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+02-Jun-2018 11:25:58.225 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+02-Jun-2018 11:25:58.243 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

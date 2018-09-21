@@ -1,0 +1,6 @@
+06-Apr-2018 09:20:50.467 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Apr-2018 09:20:53.641 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Apr-2018 09:20:53.643 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Apr-2018 09:20:53.654 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@44971269')
+06-Apr-2018 11:35:24.059 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Apr-2018 11:35:24.059 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

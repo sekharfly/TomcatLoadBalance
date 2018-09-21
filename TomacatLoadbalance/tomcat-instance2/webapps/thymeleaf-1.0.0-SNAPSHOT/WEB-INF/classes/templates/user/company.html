@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:th="http://www.thymeleaf.org"
+	layout:decorate="~{fragments/layout}">
+<head>
+<title>Index</title>
+</head>
+<body>
+	<div layout:fragment="content" th:remove="tag">
+		<h1>
+			Welcome to <span sec:authentication="name"></span>
+		</h1>
+		<p>Hi hero</p>
+
+
+		<span sec:authorize="isAuthenticated()" style="display: inline-block;">
+			Logged user: <span sec:authentication="name"></span> |</br>
+		</br>
+			<h2>
+				Valentine's Day, also called Saint Valentine's Day or the Feast of
+				Saint Valentine,</br> is celebrated annually on February 14. Originating
+				as a Western Christian feast day honoring </br> one or two early saints
+				named Valentinus, Valentine's Day is recognized</br> as a significant
+				cultural, religious, and commercial celebration of romance ...
+			</h2>
+
+		</span>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+02-Jun-2018 11:21:00.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+02-Jun-2018 11:21:00.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+02-Jun-2018 11:21:00.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+02-Jun-2018 11:21:00.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+02-Jun-2018 11:21:00.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+02-Jun-2018 11:21:00.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Jun-2018 11:21:00.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+02-Jun-2018 11:21:00.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+02-Jun-2018 11:21:00.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+02-Jun-2018 11:21:00.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2
+02-Jun-2018 11:21:00.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+02-Jun-2018 11:21:00.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/conf/logging.properties
+02-Jun-2018 11:21:00.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jun-2018 11:21:00.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Jun-2018 11:21:00.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Jun-2018 11:21:00.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Jun-2018 11:21:00.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2
+02-Jun-2018 11:21:00.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+02-Jun-2018 11:21:00.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/temp
+02-Jun-2018 11:21:00.784 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+02-Jun-2018 11:21:01.114 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8282"]
+02-Jun-2018 11:21:01.134 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jun-2018 11:21:01.148 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8209"]
+02-Jun-2018 11:21:01.150 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Jun-2018 11:21:01.151 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1911 ms
+02-Jun-2018 11:21:01.224 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Jun-2018 11:21:01.225 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+02-Jun-2018 11:21:01.252 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+02-Jun-2018 11:21:01.295 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4001]
+02-Jun-2018 11:21:01.314 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+02-Jun-2018 11:21:01.319 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+02-Jun-2018 11:21:01.833 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=118393, securePort=-1, UDP Port=-1, id={31 119 -45 -122 -4 22 64 66 -109 16 4 106 -33 -3 91 -5 }, payload={}, command={}, domain={}, ]]
+02-Jun-2018 11:21:02.322 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+02-Jun-2018 11:21:02.330 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+02-Jun-2018 11:21:02.377 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+02-Jun-2018 11:21:03.346 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+02-Jun-2018 11:21:03.501 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/thymeleaf-1.0.0-SNAPSHOT.war]
+02-Jun-2018 11:21:07.006 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4002,{127, 0, 1, 1},4002, alive=1028, securePort=-1, UDP Port=-1, id={-60 4 34 115 -28 -33 66 -12 -69 -110 10 -94 -4 57 -43 -56 }, payload={}, command={}, domain={}, ]]
+02-Jun-2018 11:21:17.557 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2018 11:21:18.204 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/thymeleaf-1.0.0-SNAPSHOT.war] has finished in [14,702] ms
+02-Jun-2018 11:21:18.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/ROOT]
+02-Jun-2018 11:21:20.572 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jun-2018 11:21:20.670 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+02-Jun-2018 11:21:20.678 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+02-Jun-2018 11:21:20.733 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=136941, securePort=-1, UDP Port=-1, id={31 119 -45 -122 -4 22 64 66 -109 16 4 106 -33 -3 91 -5 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+02-Jun-2018 11:21:20.940 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#]; session state send at [6/2/18 11:21 AM] received in [256] ms.
+02-Jun-2018 11:21:20.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/ROOT] has finished in [2,738] ms
+02-Jun-2018 11:21:20.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/docs]
+02-Jun-2018 11:21:21.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/docs] has finished in [109] ms
+02-Jun-2018 11:21:21.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/manager]
+02-Jun-2018 11:21:21.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/manager] has finished in [134] ms
+02-Jun-2018 11:21:21.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/examples]
+02-Jun-2018 11:21:22.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/examples] has finished in [1,108] ms
+02-Jun-2018 11:21:22.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/department2]
+02-Jun-2018 11:21:22.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/department2] has finished in [74] ms
+02-Jun-2018 11:21:22.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/host-manager]
+02-Jun-2018 11:21:22.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance2/webapps/host-manager] has finished in [91] ms
+02-Jun-2018 11:21:22.469 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+02-Jun-2018 11:21:22.483 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8282"]
+02-Jun-2018 11:21:22.634 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8209"]
+02-Jun-2018 11:21:22.742 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 21590 ms
+02-Jun-2018 11:24:32.350 WARNING [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:24:32.404 WARNING [Tribes-Task-Receiver[Catalina-Channel]-6] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:24:32.572 WARNING [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:24:44.284 WARNING [Tribes-Task-Receiver[Catalina-Channel]-2] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:24:52.467 WARNING [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:25:25.201 WARNING [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:25:37.889 WARNING [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#/SpringSecurityRoleBasedLoginExample]
+02-Jun-2018 11:26:01.649 INFO [pool-1-thread-3] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=418223, securePort=-1, UDP Port=-1, id={31 119 -45 -122 -4 22 64 66 -109 16 4 106 -33 -3 91 -5 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]]
+02-Jun-2018 11:26:02.984 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jun-2018 11:26:02.985 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8282"]
+02-Jun-2018 11:26:03.037 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8209"]
+02-Jun-2018 11:26:03.088 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Jun-2018 11:26:03.089 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+02-Jun-2018 11:26:03.092 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+02-Jun-2018 11:26:03.389 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8282"]
+02-Jun-2018 11:26:03.392 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8209"]
+02-Jun-2018 11:26:03.395 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8282"]
+02-Jun-2018 11:26:03.395 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8209"]

@@ -1,0 +1,14 @@
+30-Jul-2018 09:51:45.664 INFO [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+30-Jul-2018 09:51:51.485 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+30-Jul-2018 09:54:02.219 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Jul-2018 09:54:02.220 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Jul-2018 09:54:02.223 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1e0bae92')
+30-Jul-2018 12:54:04.980 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Jul-2018 12:54:04.980 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Jul-2018 14:47:28.177 INFO [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+30-Jul-2018 14:47:33.093 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+30-Jul-2018 14:49:45.348 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Jul-2018 14:49:45.349 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Jul-2018 14:49:45.351 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@12939937')
+30-Jul-2018 18:59:25.797 INFO [Thread-8] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Jul-2018 18:59:25.798 INFO [Thread-8] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

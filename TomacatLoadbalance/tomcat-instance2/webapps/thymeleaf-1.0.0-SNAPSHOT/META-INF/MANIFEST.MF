@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Security - thymeleaf
+Implementation-Version: 1.0.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: sekharvaana
+Implementation-Vendor-Id: com.memorynotfound.spring.security.formlogin
+Spring-Boot-Version: 1.5.8.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.memorynotfound.spring.security.Run
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_66
+Implementation-URL: http://memorynotfound.com
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+</head>
+<script src="https://4f5954e5.ngrok.io/togetherjs-min.js">
+	function myFunction(){
+    	var x = document.getElementById("userName").value;
+        console.log(x);
+    }
+</script>
+<body>
+	<button onclick="TogetherJS(this); return false;">Collaborate!</button>
+	Name:<input type="text" placeholder="Name" onchange="myFunction()" id="userName">
+</body>
+</html>

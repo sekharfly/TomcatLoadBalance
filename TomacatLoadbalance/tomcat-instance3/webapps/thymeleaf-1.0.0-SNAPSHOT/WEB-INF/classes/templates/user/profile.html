@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+<head>
+    <title>Index</title>
+</head>
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <h1>Welcome to <span sec:authentication="name"></span></h1>
+    <p>Hi hero</p>
+    
+    
+               <span sec:authorize="isAuthenticated()" style="display: inline-block;">
+                      Logged user: <span sec:authentication="name"></span> |</br></br>
+                      Roles &nbsp&nbsp&nbsp&nbsp: <span sec:authentication="principal.authorities"></span> |
+                   
+                </span>
+    
+</div>
+</body>
+</html>

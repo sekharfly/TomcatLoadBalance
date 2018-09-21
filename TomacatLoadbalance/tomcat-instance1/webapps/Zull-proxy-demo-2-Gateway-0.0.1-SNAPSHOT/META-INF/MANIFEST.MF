@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: Zull-proxy-demo-2-Gateway
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sekharvaana
+Implementation-Vendor-Id: com.example
+Spring-Boot-Version: 2.0.0.RELEASE
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: com.example.demo.ZullProxyDemo2GatewayApplication
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Zull-proxy-demo-2-Gateway
+

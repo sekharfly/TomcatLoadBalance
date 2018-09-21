@@ -1,0 +1,7 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--with-apxs=/usr/local/apache/bin/apxs" \
+"$@"

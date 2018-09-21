@@ -1,0 +1,5 @@
+13-Mar-2018 16:19:18.403 INFO [http-nio-8181-exec-2] org.apache.catalina.core.ApplicationContext.log Spring WebApplicationInitializers detected on classpath: [com.websystique.springsecurity.configuration.SecurityWebApplicationInitializer@64c7ea0d, com.websystique.springsecurity.configuration.SpringMvcInitializer@364fb870]
+13-Mar-2018 16:19:18.747 INFO [http-nio-8181-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+13-Mar-2018 16:19:20.655 INFO [http-nio-8181-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+13-Mar-2018 20:02:27.471 INFO [Thread-8] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+13-Mar-2018 20:02:27.474 INFO [Thread-8] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

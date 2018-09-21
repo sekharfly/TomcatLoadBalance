@@ -1,0 +1,18 @@
+13-Mar-2018 11:52:22.239 INFO [http-nio-8282-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+13-Mar-2018 11:52:22.240 INFO [http-nio-8282-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+13-Mar-2018 11:52:22.246 INFO [http-nio-8282-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+13-Mar-2018 11:59:22.454 INFO [http-nio-8282-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+13-Mar-2018 11:59:37.464 INFO [http-nio-8282-exec-6] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'null' for web application '/'
+13-Mar-2018 11:59:41.373 INFO [http-nio-8282-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+13-Mar-2018 12:04:02.385 INFO [http-nio-8282-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+13-Mar-2018 12:04:07.000 INFO [http-nio-8282-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'null' for web application '/'
+13-Mar-2018 12:05:48.053 INFO [http-nio-8282-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+13-Mar-2018 12:06:04.378 INFO [http-nio-8282-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'null' for web application '/'
+13-Mar-2018 12:06:10.614 INFO [http-nio-8282-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+13-Mar-2018 12:06:17.266 INFO [http-nio-8282-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'null' for web application '/'
+13-Mar-2018 12:07:08.085 INFO [http-nio-8282-exec-8] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+13-Mar-2018 12:07:10.036 INFO [http-nio-8282-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'null' for web application '/'
+13-Mar-2018 12:07:11.469 INFO [http-nio-8282-exec-10] org.apache.catalina.core.ApplicationContext.log HTMLManager: sessions: Session action 'sessionDetail' for web application '/'
+13-Mar-2018 13:09:41.201 INFO [http-nio-8282-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+13-Mar-2018 13:09:41.202 INFO [http-nio-8282-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+13-Mar-2018 13:09:41.217 INFO [http-nio-8282-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

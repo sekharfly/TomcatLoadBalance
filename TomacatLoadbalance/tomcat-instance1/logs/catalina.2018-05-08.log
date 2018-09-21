@@ -1,0 +1,416 @@
+08-May-2018 17:43:22.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+08-May-2018 17:43:23.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+08-May-2018 17:43:23.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+08-May-2018 17:43:23.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2018 17:43:23.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+08-May-2018 17:43:23.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2018 17:43:23.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+08-May-2018 17:43:23.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+08-May-2018 17:43:23.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-May-2018 17:43:23.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+08-May-2018 17:43:23.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+08-May-2018 17:43:23.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/conf/logging.properties
+08-May-2018 17:43:23.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2018 17:43:23.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2018 17:43:23.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2018 17:43:23.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2018 17:43:23.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+08-May-2018 17:43:23.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+08-May-2018 17:43:23.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/temp
+08-May-2018 17:43:23.021 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-May-2018 17:43:23.417 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8181"]
+08-May-2018 17:43:23.465 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:43:23.504 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 17:43:23.506 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-May-2018 17:43:23.523 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1968 ms
+08-May-2018 17:43:23.624 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2018 17:43:23.624 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+08-May-2018 17:43:23.649 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+08-May-2018 17:43:23.666 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4000]
+08-May-2018 17:43:23.717 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+08-May-2018 17:43:23.726 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+08-May-2018 17:43:24.727 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+08-May-2018 17:43:24.729 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+08-May-2018 17:43:25.730 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+08-May-2018 17:43:25.928 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war]
+08-May-2018 17:43:28.973 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:43:29.104 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/session] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:43:29.105 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/session]
+08-May-2018 17:43:29.105 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/session]: skipping state transfer. No members active in cluster group.
+08-May-2018 17:43:29.158 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war] has finished in [3,230] ms
+08-May-2018 17:43:29.197 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/SpringSecurityRoleBasedLoginExample.war]
+08-May-2018 17:43:31.518 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:43:31.893 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+08-May-2018 17:43:31.916 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue May 08 17:43:31 IST 2018]; root of context hierarchy
+08-May-2018 17:43:32.097 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.websystique.springsecurity.configuration.HelloWorldConfiguration]
+08-May-2018 17:43:34.602 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@205f52ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@774304ca, org.springframework.security.web.header.HeaderWriterFilter@4bdef487, org.springframework.security.web.csrf.CsrfFilter@4aa517c3, org.springframework.security.web.authentication.logout.LogoutFilter@1ac25dbb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@579dde54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cd90c36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65a80fdb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34f60be9, org.springframework.security.web.session.SessionManagementFilter@3e595da3, org.springframework.security.web.access.ExceptionTranslationFilter@3e2578ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a0c512b]
+08-May-2018 17:43:34.893 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue May 08 17:43:31 IST 2018]; root of context hierarchy
+08-May-2018 17:43:35.120 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+08-May-2018 17:43:35.216 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.loginPage()
+08-May-2018 17:43:35.221 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/admin],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.adminPage(org.springframework.ui.ModelMap)
+08-May-2018 17:43:35.222 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/ || /home],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.homePage(org.springframework.ui.ModelMap)
+08-May-2018 17:43:35.222 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/Access_Denied],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.accessDeniedPage(org.springframework.ui.ModelMap)
+08-May-2018 17:43:35.223 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.logoutPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+08-May-2018 17:43:35.227 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/db],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.dbaPage(org.springframework.ui.ModelMap)
+08-May-2018 17:43:35.293 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 3399 ms
+08-May-2018 17:43:35.295 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/SpringSecurityRoleBasedLoginExample] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:43:35.295 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/SpringSecurityRoleBasedLoginExample]
+08-May-2018 17:43:35.295 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/SpringSecurityRoleBasedLoginExample]: skipping state transfer. No members active in cluster group.
+08-May-2018 17:43:35.316 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+08-May-2018 17:43:35.321 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue May 08 17:43:35 IST 2018]; parent: Root WebApplicationContext
+08-May-2018 17:43:35.379 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 63 ms
+08-May-2018 17:43:35.389 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/SpringSecurityRoleBasedLoginExample.war] has finished in [6,191] ms
+08-May-2018 17:43:35.443 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT.war]
+08-May-2018 17:43:50.387 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:44:19.745 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:44:19.745 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT]
+08-May-2018 17:44:19.746 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT]: skipping state transfer. No members active in cluster group.
+08-May-2018 17:44:19.762 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT.war] has finished in [44,319] ms
+08-May-2018 17:44:19.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT]
+08-May-2018 17:44:21.473 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:44:21.474 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:44:21.474 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+08-May-2018 17:44:21.474 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#]: skipping state transfer. No members active in cluster group.
+08-May-2018 17:44:21.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT] has finished in [1,713] ms
+08-May-2018 17:44:21.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs]
+08-May-2018 17:44:21.531 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/docs] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:44:21.532 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/docs]
+08-May-2018 17:44:21.532 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/docs]: skipping state transfer. No members active in cluster group.
+08-May-2018 17:44:21.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs] has finished in [56] ms
+08-May-2018 17:44:21.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager]
+08-May-2018 17:44:21.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager] has finished in [229] ms
+08-May-2018 17:44:21.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager]
+08-May-2018 17:44:21.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager] has finished in [56] ms
+08-May-2018 17:44:21.821 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+08-May-2018 17:44:21.829 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8181"]
+08-May-2018 17:44:21.870 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 17:44:21.950 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 58425 ms
+08-May-2018 17:47:02.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+08-May-2018 17:47:02.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+08-May-2018 17:47:02.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+08-May-2018 17:47:02.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-May-2018 17:47:02.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.19.0-80-generic
+08-May-2018 17:47:02.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2018 17:47:02.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+08-May-2018 17:47:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+08-May-2018 17:47:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-May-2018 17:47:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+08-May-2018 17:47:02.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+08-May-2018 17:47:02.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/conf/logging.properties
+08-May-2018 17:47:02.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2018 17:47:02.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2018 17:47:02.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2018 17:47:02.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2018 17:47:02.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1
+08-May-2018 17:47:02.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sekharvaana/Desktop/TomacatLoadbalance/apache-tomcat-9.0.5
+08-May-2018 17:47:02.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/temp
+08-May-2018 17:47:02.995 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-May-2018 17:47:03.364 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8181"]
+08-May-2018 17:47:03.405 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8181]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+08-May-2018 17:47:03.412 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 17:47:03.414 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8109]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+08-May-2018 17:47:03.415 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1940 ms
+08-May-2018 17:47:03.499 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2018 17:47:03.500 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+08-May-2018 17:47:03.537 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+08-May-2018 17:47:03.563 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/127.0.1.1:4001]
+08-May-2018 17:47:03.611 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+08-May-2018 17:47:03.617 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+08-May-2018 17:47:03.701 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=219994, securePort=-1, UDP Port=-1, id={33 51 -96 -39 111 -81 68 -10 -121 -98 -120 -107 -47 -119 -80 -96 }, payload={}, command={}, domain={}, ]]
+08-May-2018 17:47:03.706 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+08-May-2018 17:47:04.617 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+08-May-2018 17:47:04.622 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+08-May-2018 17:47:04.642 INFO [Membership-MemberAdded.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4001,{127, 0, 1, 1},4001, alive=1030, securePort=-1, UDP Port=-1, id={-74 -9 -90 -128 -37 -66 71 -10 -86 -55 55 107 49 89 105 -7 }, payload={}, command={}, domain={}, ]]
+08-May-2018 17:47:04.653 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+08-May-2018 17:47:05.622 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+08-May-2018 17:47:05.673 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war]
+08-May-2018 17:47:07.830 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:47:07.954 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/session] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:47:07.955 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/session]
+08-May-2018 17:47:08.002 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/session], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=224002, securePort=-1, UDP Port=-1, id={33 51 -96 -39 111 -81 68 -10 -121 -98 -120 -107 -47 -119 -80 -96 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+08-May-2018 17:47:08.111 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/session]; session state send at [5/8/18 5:47 PM] received in [149] ms.
+08-May-2018 17:47:08.154 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/session.war] has finished in [2,480] ms
+08-May-2018 17:47:08.155 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/SpringSecurityRoleBasedLoginExample.war]
+08-May-2018 17:47:09.678 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:47:10.328 WARNING [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#]
+08-May-2018 17:47:10.381 WARNING [Tribes-Task-Receiver[Catalina-Channel]-6] org.apache.catalina.ha.session.ClusterSessionListener.messageReceived Context manager doesn't exist:[localhost#]
+08-May-2018 17:47:10.544 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+08-May-2018 17:47:10.570 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue May 08 17:47:10 IST 2018]; root of context hierarchy
+08-May-2018 17:47:10.877 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.websystique.springsecurity.configuration.HelloWorldConfiguration]
+08-May-2018 17:47:13.480 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain.<init> Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@515940af, org.springframework.security.web.context.SecurityContextPersistenceFilter@13d5606c, org.springframework.security.web.header.HeaderWriterFilter@70ed902a, org.springframework.security.web.csrf.CsrfFilter@2211e731, org.springframework.security.web.authentication.logout.LogoutFilter@674e4c82, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e79c25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7165bde6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4af84a76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f8df69, org.springframework.security.web.session.SessionManagementFilter@3c98981e, org.springframework.security.web.access.ExceptionTranslationFilter@1df9f7c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a9051fd]
+08-May-2018 17:47:13.676 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.loginPage()
+08-May-2018 17:47:13.677 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/admin],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.adminPage(org.springframework.ui.ModelMap)
+08-May-2018 17:47:13.678 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/db],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.dbaPage(org.springframework.ui.ModelMap)
+08-May-2018 17:47:13.678 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/Access_Denied],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.accessDeniedPage(org.springframework.ui.ModelMap)
+08-May-2018 17:47:13.678 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.logoutPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+08-May-2018 17:47:13.683 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod Mapped "{[/ || /home],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websystique.springsecurity.controller.HelloWorldController.homePage(org.springframework.ui.ModelMap)
+08-May-2018 17:47:13.727 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+08-May-2018 17:47:13.840 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue May 08 17:47:10 IST 2018]; root of context hierarchy
+08-May-2018 17:47:14.040 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 3496 ms
+08-May-2018 17:47:14.041 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/SpringSecurityRoleBasedLoginExample] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:47:14.042 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/SpringSecurityRoleBasedLoginExample]
+08-May-2018 17:47:14.047 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/SpringSecurityRoleBasedLoginExample], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=230017, securePort=-1, UDP Port=-1, id={33 51 -96 -39 111 -81 68 -10 -121 -98 -120 -107 -47 -119 -80 -96 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+08-May-2018 17:47:14.148 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/SpringSecurityRoleBasedLoginExample]; session state send at [5/8/18 5:47 PM] received in [105] ms.
+08-May-2018 17:47:14.157 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+08-May-2018 17:47:14.164 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue May 08 17:47:14 IST 2018]; parent: Root WebApplicationContext
+08-May-2018 17:47:14.210 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 53 ms
+08-May-2018 17:47:14.218 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/SpringSecurityRoleBasedLoginExample.war] has finished in [6,062] ms
+08-May-2018 17:47:14.218 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT.war]
+08-May-2018 17:47:23.257 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:47:49.343 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:47:49.343 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT]
+08-May-2018 17:47:49.345 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=265602, securePort=-1, UDP Port=-1, id={33 51 -96 -39 111 -81 68 -10 -121 -98 -120 -107 -47 -119 -80 -96 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+08-May-2018 17:47:49.448 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT]; session state send at [5/8/18 5:47 PM] received in [104] ms.
+08-May-2018 17:47:49.480 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT.war] has finished in [35,261] ms
+08-May-2018 17:47:49.481 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT]
+08-May-2018 17:47:50.545 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-May-2018 17:47:50.547 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:47:50.548 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#]
+08-May-2018 17:47:50.549 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=266605, securePort=-1, UDP Port=-1, id={33 51 -96 -39 111 -81 68 -10 -121 -98 -120 -107 -47 -119 -80 -96 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+08-May-2018 17:47:50.651 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#]; session state send at [5/8/18 5:47 PM] received in [103] ms.
+08-May-2018 17:47:50.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/ROOT] has finished in [1,172] ms
+08-May-2018 17:47:50.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs]
+08-May-2018 17:47:50.701 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/docs] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:47:50.702 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/docs]
+08-May-2018 17:47:50.709 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/docs], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4000,{127, 0, 1, 1},4000, alive=266605, securePort=-1, UDP Port=-1, id={33 51 -96 -39 111 -81 68 -10 -121 -98 -120 -107 -47 -119 -80 -96 }, payload={}, command={}, domain={}, ]]. This operation will timeout if no session state has been received within [60] seconds.
+08-May-2018 17:47:50.810 INFO [main] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/docs]; session state send at [5/8/18 5:47 PM] received in [108] ms.
+08-May-2018 17:47:50.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/docs] has finished in [160] ms
+08-May-2018 17:47:50.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager]
+08-May-2018 17:47:50.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/manager] has finished in [123] ms
+08-May-2018 17:47:50.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager]
+08-May-2018 17:47:50.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/host-manager] has finished in [54] ms
+08-May-2018 17:47:50.995 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+08-May-2018 17:47:51.010 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 47594 ms
+08-May-2018 17:47:51.011 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8105]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+08-May-2018 17:47:51.013 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8181"]
+08-May-2018 17:47:51.015 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 17:47:51.016 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 17:47:51.017 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+08-May-2018 17:47:51.021 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/session] expiring sessions upon shutdown
+08-May-2018 17:47:51.059 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+08-May-2018 17:47:51.079 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue May 08 17:47:14 IST 2018]; parent: Root WebApplicationContext
+08-May-2018 17:47:51.081 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/SpringSecurityRoleBasedLoginExample] expiring sessions upon shutdown
+08-May-2018 17:47:51.083 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue May 08 17:47:10 IST 2018]; root of context hierarchy
+08-May-2018 17:47:51.102 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] expiring sessions upon shutdown
+08-May-2018 17:47:54.411 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+08-May-2018 17:47:54.412 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] created a ThreadLocal with key of type [com.netflix.hystrix.Hystrix$1] (value [com.netflix.hystrix.Hystrix$1@46d866c5]) and a value of type [com.netflix.hystrix.Hystrix.ConcurrentStack] (value [com.netflix.hystrix.Hystrix$ConcurrentStack@6ae065fe]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-May-2018 17:47:54.443 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/docs] expiring sessions upon shutdown
+08-May-2018 17:47:54.549 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8181"]
+08-May-2018 17:47:54.549 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8181"]
+08-May-2018 17:47:54.550 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 17:47:54.550 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 17:47:54.552 INFO [Membership-MemberDisappeared.] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 1, 1}:4001,{127, 0, 1, 1},4001, alive=50956, securePort=-1, UDP Port=-1, id={-74 -9 -90 -128 -37 -66 71 -10 -86 -55 55 107 49 89 105 -7 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}, ]]
+08-May-2018 17:48:01.398 INFO [http-nio-8181-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/vanilla.war]
+08-May-2018 17:48:02.131 INFO [http-nio-8181-exec-4] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/vanilla] to cluster element [Engine] with name [Catalina]
+08-May-2018 17:48:02.132 INFO [http-nio-8181-exec-4] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/vanilla]
+08-May-2018 17:48:02.132 INFO [http-nio-8181-exec-4] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/vanilla]: skipping state transfer. No members active in cluster group.
+08-May-2018 17:48:02.142 INFO [http-nio-8181-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/sekharvaana/Desktop/TomacatLoadbalance/tomcat-instance1/webapps/vanilla.war] has finished in [744] ms
+08-May-2018 18:22:02.833 WARNING [Tribes-MembershipSender[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread.run Unable to send mcast message.
+ java.io.IOException: Network is unreachable (sendto failed)
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$SenderThread.run(McastServiceImpl.java:592)
+
+08-May-2018 18:22:07.163 INFO [Thread-17] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8181"]
+08-May-2018 18:22:07.166 INFO [Thread-17] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 18:22:07.167 INFO [Thread-17] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-May-2018 18:22:07.398 INFO [Thread-17] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+08-May-2018 18:22:07.440 INFO [Thread-17] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/session] expiring sessions upon shutdown
+08-May-2018 18:22:07.444 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+08-May-2018 18:22:07.445 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable (sendto failed)
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+08-May-2018 18:22:07.445 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+08-May-2018 18:22:07.445 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+08-May-2018 18:22:07.446 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+08-May-2018 18:22:07.451 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [1] failed, trying again in [5000] seconds
+08-May-2018 18:22:07.681 INFO [Thread-17] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#] expiring sessions upon shutdown
+08-May-2018 18:22:07.690 INFO [Thread-17] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/vanilla] expiring sessions upon shutdown
+08-May-2018 18:22:07.700 INFO [Thread-17] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue May 08 17:43:35 IST 2018]; parent: Root WebApplicationContext
+08-May-2018 18:22:07.703 INFO [Thread-17] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/SpringSecurityRoleBasedLoginExample] expiring sessions upon shutdown
+08-May-2018 18:22:07.704 INFO [Thread-17] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue May 08 17:43:31 IST 2018]; root of context hierarchy
+08-May-2018 18:22:08.046 INFO [Thread-17] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] expiring sessions upon shutdown
+08-May-2018 18:22:12.452 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Tribes membership, running recovery thread, multicasting is not functional.
+08-May-2018 18:22:12.452 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService Recovery thread failed to stop membership service.
+ java.io.IOException: Network is unreachable (sendto failed)
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.stopService(McastServiceImpl.java:637)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+08-May-2018 18:22:12.453 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+08-May-2018 18:22:12.453 SEVERE [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+08-May-2018 18:22:12.453 WARNING [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService Recovery thread failed to start membership service.
+ java.net.SocketException: No such device
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.startService(McastServiceImpl.java:647)
+	at org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run(McastServiceImpl.java:662)
+
+08-May-2018 18:22:12.453 INFO [Tribes-MembershipRecovery[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl$RecoveryThread.run Recovery attempt [2] failed, trying again in [5000] seconds
+08-May-2018 18:22:13.024 WARNING [Thread-17] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Zull-proxy-demo-2-Gateway-0.0.1-SNAPSHOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+08-May-2018 18:22:13.045 INFO [Thread-17] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/docs] expiring sessions upon shutdown
+08-May-2018 18:22:13.151 SEVERE [Thread-17] org.apache.catalina.tribes.membership.McastService.stop Unable to stop the mcast service, level: [4]
+ java.io.IOException: Network is unreachable (sendto failed)
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastService.stop(McastService.java:400)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.internalStop(ChannelCoordinator.java:236)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.stop(ChannelCoordinator.java:121)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.stop(ChannelInterceptorBase.java:185)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.stop(ChannelInterceptorBase.java:185)
+	at org.apache.catalina.tribes.group.GroupChannel.stop(GroupChannel.java:480)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.stopInternal(SimpleTcpCluster.java:633)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1021)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:471)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:791)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:755)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:856)
+
+08-May-2018 18:22:13.152 SEVERE [Thread-17] org.apache.catalina.tribes.membership.McastService.stop Unable to stop the mcast service, level: [8]
+ java.io.IOException: Network is unreachable (sendto failed)
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:515)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.send(McastServiceImpl.java:492)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.stop(McastServiceImpl.java:335)
+	at org.apache.catalina.tribes.membership.McastService.stop(McastService.java:400)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.internalStop(ChannelCoordinator.java:243)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.stop(ChannelCoordinator.java:121)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.stop(ChannelInterceptorBase.java:185)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.stop(ChannelInterceptorBase.java:185)
+	at org.apache.catalina.tribes.group.GroupChannel.stop(GroupChannel.java:480)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.stopInternal(SimpleTcpCluster.java:633)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1021)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:471)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:791)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:755)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:856)
+
+08-May-2018 18:22:13.152 INFO [Thread-17] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8181"]
+08-May-2018 18:22:13.154 INFO [Thread-17] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8109"]
+08-May-2018 18:22:13.157 INFO [Thread-17] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8181"]
+08-May-2018 18:22:13.158 INFO [Thread-17] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8109"]
